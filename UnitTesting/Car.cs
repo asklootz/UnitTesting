@@ -17,7 +17,7 @@ public class Car
         KilometersPerLiter = kilometersPerLiter;
     }
 
-    // Fiks metoden, slik at den returnerer hvor mye bensin som er igjen etter å ha kjørt en gitt distanse. Den skal kunne brukes på testen "TestGotEnoughFuel" i CarTests-klassen
+    // Fiks metoden, slik at den returnerer hvor mye bensin som er igjen etter å ha kjørt en gitt distanse, litt enkel matte. Den skal kunne brukes på testen "TestGotEnoughFuel" i CarTests-klassen
     public double RemainingFuel(double distance)
     {
         return 0; // Skal returnere noe annet.

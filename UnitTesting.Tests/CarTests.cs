@@ -14,7 +14,7 @@ public class CarTests
 
     
     
-    // I denne testen skal du den andre metoden du lagde i Car-klassen til å lage en liste del biler. 
+    // I denne testen skal du bruke den andre metoden du lagde i Car-klassen til å lage en liste del biler. 
     // Etterpå i "Assert.Contains()" skal du bruke dine kule LINQ-skills til å sjekke om et merke du velger er i listen av biler metoden lager. 
 
     

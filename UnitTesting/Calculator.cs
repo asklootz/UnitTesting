@@ -3,13 +3,13 @@
 // Klasse for en kalkulator
 public class Calculator
 {
-    // En klasse som skal returnere en "double" variabel
+    // En klasse som skal returnere en "double" variabel addisjon
     public double Add(double a, double b)
     {
         return a + b;
     }
 
-    // En metode som skal returnere en double variabel
+    // En metode som skal returnere en "double" variabel etter å utføre subtraksjon
     public double Subtract(double a, double b)
     {
         return a - b;
