@@ -12,13 +12,27 @@ public class CalculatorTests
     }
     
     //  Skriv din egen test for subtraksjons-metoden i Calculator klassen.
-    
+    [Fact] 
+    public void TestSubtraction()
+    {
+        Calculator calculator = new Calculator();
+        var result = calculator.Subtract(1, 2);
+        Assert.Equal(-1, result);
+    }
     
     
     
     // Skriv en test som tester pluss og minus samtidig. Skal kun passere om alle Assert er riktig.
     // (NB! Du tester 2 forskjellige metoder sammen, viktig å også teste metodene seperat. Hvis én metode feiler så feiler hele testen uten å klart si hva gjorde at testen feilet)
-    
+    [Fact]
+    public void TestBoth()
+    {
+        Calculator calculator = new Calculator();
+        var resultAddition = calculator.Add(1, 2);
+        var resultSubtraction = calculator.Subtract(1, 2);
+        Assert.Equal(3, resultAddition);
+        Assert.Equal(-1, resultSubtraction);
+    }
     
     
     
